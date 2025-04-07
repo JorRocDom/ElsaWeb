@@ -1,0 +1,99 @@
+/* Estilo general de la página */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Encabezados */
+h1, h2 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+/* Contenedor principal */
+#calendar {
+    max-width: 900px;
+    margin: 0 auto 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Estilo del formulario */
+form {
+    max-width: 500px;
+    margin: 0 auto 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+form input,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+form button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+form button:hover {
+    background-color: #2980b9;
+}
+
+/* Lista de reservas */
+#reservasList {
+    max-width: 500px;
+    margin: 0 auto;
+    padding-left: 20px;
+}
+
+#reservasList li {
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+}
+
+/* FullCalendar personalizado */
+.fc .fc-toolbar-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+}
+
+.fc .fc-button-primary {
+    background-color: #3498db;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.fc .fc-button-primary:hover {
+    background-color: #2980b9;
+}
+
+.fc .fc-daygrid-day-number {
+    color: #2c3e50;
+    font-weight: bold;
+}
